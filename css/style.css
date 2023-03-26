@@ -1,0 +1,59 @@
+/* To add id  # styles*/
+	
+	
+/* .link-text {
+  color: red;
+} */
+
+/* ul li a {
+  color: green;
+}
+
+ul a {
+  color: yellow;
+}
+
+a {
+  color: blue;
+}
+ */
+
+ 
+ 
+
+ #a-link {
+    font-family: Georgia;
+    font-size: large;
+    text-decoration: none;   
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    list-style: none;    
+}
+
+.box-left-menu{
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	/*width: 250px;
+	height: 500px;*/
+	/* /*border: 2px solid gray;* */
+	/*margin: 5px;
+	padding: 5px;*/
+}
+
+.box-main-content{	
+	display: grid;
+	grid-area: auto;
+	grid-template-columns: 350px 350px 350px 350px;
+	grid-gap: 100px;
+	padding: 100px;
+}
+
+.blog-card{
+	display: flex;
+	background-color: rgb(205, 210, 100);
+	color: rgb(55, 10, 73);	
+	/*border: 1px solid red;*/
+}
+

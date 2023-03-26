@@ -1,0 +1,16 @@
+/* To add css for default components */
+
+@import "style.css";
+@import "components.css";
+@import "text.css";
+@import "elements.css";
+
+
+ul {
+    	background-color: lightgoldenrodyellow;	
+ }
+
+
+ ul li {
+		list-style: none;
+ }

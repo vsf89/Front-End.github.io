@@ -1,0 +1,12 @@
+/*  Add content for main elements like headers, footers etc.*/
+
+
+#footer {
+    position: fixed;
+    text-align: center;
+    text-decoration: solid;
+    bottom: 0;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100px;    
+}
