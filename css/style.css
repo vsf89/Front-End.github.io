@@ -47,13 +47,19 @@ a {
 	grid-area: auto;
 	grid-template-columns: 350px 350px 350px 350px;
 	grid-gap: 100px;
-	padding: 100px;
+	padding: 100px;	
 }
 
 .blog-card{
 	display: flex;
 	background-color: rgb(205, 210, 100);
-	color: rgb(55, 10, 73);	
-	/*border: 1px solid red;*/
+	color: rgb(55, 10, 73);
+	/* text-align: justify; */
+	border: 1px solid red;
+}
+
+.image {
+	width: 350px;
+	height: 300px;
 }
 

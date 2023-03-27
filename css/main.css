@@ -14,3 +14,45 @@ ul {
  ul li {
 		list-style: none;
  }
+
+ img {
+	box-sizing: content-box;
+ }
+
+ input {
+	display: flex;
+	margin: 1em 1em 1em 8em;	
+	/* margin-bottom: 1em;
+	margin-left: 1em; */
+	
+	/* text-align: center; */
+	text-indent: 8%;
+	color: green;
+	width: 100px;
+	height: 25px; 
+	/*background-color: rgb(200, 229, 145);*/
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: medium;
+	border: transparent;
+	/* align-self: flex-end; */
+	cursor: pointer;
+	/* position: absolute; */
+ }
+ 
+ h2 {
+	color: coral;
+ }
+
+ h6 {
+	font-size: small;
+	font-weight: lighter;
+ }
+
+ h5 {
+	font-size: small;
+	font-weight: lighter;
+	color:coral;
+ }
+
+ 
+
