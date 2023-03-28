@@ -18,7 +18,7 @@ a {
 }
  */
 
- 
+
  
 
  #a-link {
@@ -28,8 +28,18 @@ a {
     display: block;
     font-weight: bold;
     text-align: center;
-    list-style: none;    
+    list-style: none;
+	color: green;
 }
+
+.a-title {
+	text-decoration: none;
+	color: green;
+}
+
+/* #a-social-media {	
+     color: green;
+} */
 
 .box-left-menu{
 	display: flex;
@@ -60,6 +70,12 @@ a {
 
 .image {
 	width: 350px;
-	height: 300px;
+	height: 300px;	
 }
 
+.img-avatar {
+	vertical-align: middle;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+ }
