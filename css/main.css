@@ -8,11 +8,14 @@
 
 ul {
     	background-color: lightgoldenrodyellow;	
+		padding: none;
+		padding-inline-start: 0px;
  }
 
 
  ul li {
 		list-style: none;
+		
  }
 
  img {
@@ -39,19 +42,22 @@ ul {
 	/* position: absolute; */
  }
  
- h2 {
+ h4 {	
 	color: coral;
+	margin: 0%;
  }
 
  h6 {
 	font-size: small;
 	font-weight: lighter;
+	margin: 0%;
  }
 
  h5 {
 	font-size: small;
 	font-weight: lighter;
 	color:coral;
+	margin: 0%;
  }
 
  

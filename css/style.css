@@ -45,27 +45,29 @@ a {
 	display: flex;
 	flex-direction: column;
 	align-items: left;
-	/*width: 250px;
-	height: 500px;*/
+	width: 80%;
+	/*height: 500px;*/
 	/* /*border: 2px solid gray;* */
 	/*margin: 5px;
 	padding: 5px;*/
 }
 
+@media(min-width:900px){
 .box-main-content{	
 	display: grid;
 	grid-area: auto;
 	grid-template-columns: 350px 350px 350px 350px;
 	grid-gap: 100px;
-	padding: 100px;	
+	padding: 10px;	
+}
 }
 
 .blog-card{
 	display: flex;
 	background-color: rgb(205, 210, 100);
 	color: rgb(55, 10, 73);
-	/* text-align: justify; */
-	border: 1px solid red;
+	/* text-align: justify; 
+	border: 1px solid red;*/
 }
 
 .image {
