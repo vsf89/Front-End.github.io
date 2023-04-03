@@ -6,12 +6,10 @@
     text-align: center;
     text-decoration: solid;
     bottom: 0;
-    background-color: whitesmoke;
-    /* width: 100%;
-    height: 100px;     */
     width: 100%;
     height: auto;
     vertical-align: middle;
+    grid-area: ft;
 }
 
 .fa {
@@ -22,7 +20,3 @@
     text-decoration: none;
     margin: 5px 2px;
   }
-/* .fa-facebook {
-    background: #3B5998;
-    color: white;
-  } */

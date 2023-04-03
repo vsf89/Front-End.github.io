@@ -4,21 +4,28 @@
     font: normal;
     font-size: 12;
     font-style: normal;
-    /* font-weight: bold; */
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-indent: 3em;
-    /*word-spacing: 30%;
-    color: blue;*/   
-    padding: 5px 10px 5px 10px;
+    color: gray;   
+    padding: 5px 50px 5px 50px;
+    text-align: justify;   
+}
+
+.p-blog-para {
+    font: normal;
+    font-size: 12;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-indent: 3em;
+    color: gray;   
+    padding: 5px 50px 5px 50px;
     text-align: justify;
+    width: 1000px;
 }
 
 .p-text {
     font: normal;
     font-size: 12;
     font-style: normal;
-    /* font-weight: bold; */
-    font-family: Georgia, 'Times New Roman', Times, serif;    
-    padding: 5px 10px 5px 10px;
-    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }

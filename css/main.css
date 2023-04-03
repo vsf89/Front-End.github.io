@@ -6,8 +6,7 @@
 @import "elements.css";
 
 
-ul {
-    	background-color: lightgoldenrodyellow;	
+ul {    
 		padding: none;
 		padding-inline-start: 0px;
  }
@@ -24,41 +23,44 @@ ul {
 
  input {
 	display: flex;
-	margin: 1em 1em 1em 8em;	
-	/* margin-bottom: 1em;
-	margin-left: 1em; */
-	
-	/* text-align: center; */
+	margin: 1em 1em 1em 8em;
 	text-indent: 8%;
 	color: green;
 	width: 100px;
-	height: 25px; 
-	/*background-color: rgb(200, 229, 145);*/
+	height: 25px; 	
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: medium;
 	border: transparent;
-	/* align-self: flex-end; */
 	cursor: pointer;
-	/* position: absolute; */
  }
  
  h4 {	
 	color: coral;
-	margin: 0%;
+	font-size: xx-large;
+	text-align: center;	
  }
 
  h6 {
-	font-size: small;
-	font-weight: lighter;
-	margin: 0%;
+	font-size: medium;
+	font-weight: lighter;	
+	color: green;
+	font-family: Georgia, 'Times New Roman', Times, serif;
  }
 
  h5 {
-	font-size: small;
-	font-weight: lighter;
+	font-size: medium;	
 	color:coral;
-	margin: 0%;
+	margin: 2%;
+	font-style: italic;
+	padding-left: 50px;
+	width: 400px;
+ }
+
+ address {
+	padding-left: 50px;
  }
 
  
+
+
 
