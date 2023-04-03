@@ -36,7 +36,7 @@
 
 
 
-@media (min-width:901px) {
+/* @media (min-width:901px) {
 .grid-main-content {
 	display: grid;		
 		grid-template-columns: 350px 350px 350px 350px;
@@ -70,7 +70,7 @@
 			"ft";
 		grid-gap: 10px;
 	}
-}
+} */
  
 
 /* .header{
