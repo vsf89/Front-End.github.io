@@ -1,6 +1,6 @@
 /* To add id  # styles*/
-
- #a-link {
+	
+#a-link {
     font-family: Georgia;
     font-size: large;
     text-decoration: none;   
@@ -22,7 +22,6 @@
 	align-items: left;
 	justify-content: flex-start;
 	padding-left: 200px;
-	/* grid-area: left-menu; */
 }
 
 .grid-main-content {
@@ -35,21 +34,21 @@
 
  .grid-blog-content {
 	display: grid;
-	/* grid-area: auto; */
+	grid-area: auto;
 	grid-template-columns: 350px 350px;
 	grid-gap: 100px;
  }
-
 
 .box-blog-content {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	 color: olive;	
+	color: olive;
 	padding-top: 2%;
 	padding-left: 200px;
 	padding-right: 200px;
+
 }
 
 .blog-card {
@@ -58,7 +57,7 @@
 	align-items: center;
 	justify-content: start;
 	background-color: rgb(205, 210, 100);
-	color: rgb(55, 10, 73);
+	color: rgb(55, 10, 73);	
 }
 
 .image {
