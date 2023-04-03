@@ -9,7 +9,7 @@
     width: 100%;
     height: auto;
     vertical-align: middle;
-    grid-area: ft;
+    /* grid-area: ft; */
 }
 
 .fa {
