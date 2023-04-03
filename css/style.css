@@ -135,7 +135,7 @@
 
  .grid-blog-content {
 	display: grid;
-	grid-area: auto;
+	/* grid-area: auto; */
 	grid-template-columns: 350px 350px;
 	grid-gap: 100px;
  }
