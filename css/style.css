@@ -25,6 +25,14 @@
 	/* grid-area: left-menu; */
 }
 
+.grid-main-content {
+	display: grid;
+	grid-area: auto;
+	grid-template-columns: 350px 350px 350px 350px;
+	grid-gap: 100px;
+ }
+
+
  .grid-blog-content {
 	display: grid;
 	/* grid-area: auto; */
