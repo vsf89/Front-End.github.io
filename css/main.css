@@ -33,18 +33,26 @@ ul {
 	border: transparent;
 	cursor: pointer;
  }
+
+ h1 {	
+	color: greenyellow;	
+	text-align: center;	
+ }
+
+ h2 {	
+	color: olive;	
+	text-align: center;	
+ }
+
+ h3 {	
+	color: green;	
+	text-align: center;	
+ }
  
  h4 {	
 	color: coral;
 	font-size: xx-large;
 	text-align: center;	
- }
-
- h6 {
-	font-size: medium;
-	font-weight: lighter;	
-	color: green;
-	font-family: Georgia, 'Times New Roman', Times, serif;
  }
 
  h5 {
@@ -56,8 +64,18 @@ ul {
 	width: 400px;
  }
 
+ h6 {
+	font-size: medium;
+	font-weight: lighter;	
+	color: green;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ 
+
  address {
 	padding-left: 50px;
+	padding-top: 10px;
  }
 
  

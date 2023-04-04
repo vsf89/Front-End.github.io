@@ -2,7 +2,7 @@
 
 
 #footer {
-    position: fixed;
+    position: relative;
     text-align: center;
     text-decoration: solid;
     bottom: 0;

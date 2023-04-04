@@ -29,3 +29,50 @@
     font-style: normal;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.p-text-italic {
+    font: normal;
+    font-size: 12;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-indent: 3em;
+    color: gray;   
+    padding: 5px 50px 5px 50px;
+    text-align: justify;
+    width: 1000px;
+}
+
+.p-text-bold {
+    font: bold;
+    font-size: 12;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-indent: 3em;
+    color: gray;   
+    padding: 5px 50px 5px 50px;
+    text-align: justify;
+    width: 1000px;
+}
+
+.p-text-underline {
+    text-decoration: underline;
+    text-indent: 3em;
+    text-align: justify;
+    font-size: 12;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gray;   
+    padding: 5px 50px 5px 50px;
+    width: 1000px;
+}
+
+q {
+    quotes: '"' '"';
+}
+
+q::before {
+    content: open-quote;
+  }
+  q::after {
+    content: close-quote;
+  }

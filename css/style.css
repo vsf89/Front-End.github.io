@@ -1,15 +1,23 @@
-/* To add id  # styles*/
-	
 #a-link {
     font-family: Georgia;
     font-size: large;
-    text-decoration: none;   
+    text-decoration: none;
     display: block; 
     font-weight: bold;
     text-align: center;
     list-style: none;
 	color: green;
 }
+
+a:hover {
+	color:blue;
+}
+
+a:active {
+	color:purple;
+}
+
+
 
 .a-title {
 	text-decoration: none;
@@ -71,3 +79,24 @@
 	height: 60px;
 	border-radius: 50%;
  }
+
+ .img-blog {
+	vertical-align: middle;	
+	width: 1000px;
+	height: 600px;
+	align-content: center;
+ }
+
+ .sub {
+	display: block;
+ }
+
+ .section {
+	border: 1px solid lightgreen;
+	width: fit-content;
+	height: fit-content;
+ }
+
+ /* figcaption {
+	padding-left: 100px;
+ } */
