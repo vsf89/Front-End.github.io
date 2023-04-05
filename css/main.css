@@ -6,79 +6,80 @@
 @import "elements.css";
 
 
-ul {    
-		padding: none;
-		padding-inline-start: 0px;
- }
+ul {
+	padding: none;
+	padding-inline-start: 0px;
+}
 
 
- ul li {
-		list-style: none;
-		
- }
+ul li {
+	list-style: none;
 
- img {
+}
+
+img {
 	box-sizing: content-box;
- }
+}
 
- input {
+input {
 	display: flex;
 	margin: 1em 1em 1em 8em;
 	text-indent: 8%;
 	color: green;
 	width: 100px;
-	height: 25px; 	
+	height: 25px;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: medium;
 	border: transparent;
 	cursor: pointer;
- }
+}
 
- h1 {	
-	color: greenyellow;	
-	text-align: center;	
- }
+h1 {
+	color: greenyellow;
+	text-align: center;
+}
 
- h2 {	
-	color: olive;	
-	text-align: center;	
- }
+h2 {
+	color: olive;
+	text-align: center;
+}
 
- h3 {	
-	color: green;	
-	text-align: center;	
- }
- 
- h4 {	
+h3 {
+	color: green;
+	text-align: center;
+}
+
+h4 {
 	color: coral;
 	font-size: xx-large;
-	text-align: center;	
- }
+	text-align: center;
+	margin-top: 20px;
+    margin-bottom: 20px;
+}
 
- h5 {
-	font-size: medium;	
-	color:coral;
+h5 {
+	font-size: medium;
+	color: coral;
 	margin: 2%;
 	font-style: italic;
 	padding-left: 50px;
 	width: 400px;
- }
+}
 
- h6 {
+h6 {
 	font-size: medium;
-	font-weight: lighter;	
+	font-weight: lighter;
 	color: green;
 	font-family: Georgia, 'Times New Roman', Times, serif;
- }
+}
 
- 
-
- address {
+address {
 	padding-left: 50px;
 	padding-top: 10px;
- }
+}
 
- 
-
-
-
+figcaption {
+	color: forestgreen;
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}

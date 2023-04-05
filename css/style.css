@@ -49,6 +49,7 @@ a:active {
 .image {
 	width: 350px;
 	height: 300px;
+	object-fit: cover;
 }
 
 
@@ -100,6 +101,7 @@ a:active {
 
 .section {
 	border: 1px solid lightgreen;
+	background-color: khaki;
 	width: fit-content;
 	height: fit-content;
 }
@@ -166,15 +168,15 @@ a:active {
 	.image-container {
 		width: 30%;
 		height: 300px;
-	}	
+	}
 
 	.img-blog {
 		/* vertical-align: middle; */
-		 width: 300px;
+		width: 300px;
 		height: 300px;
 		object-fit: cover;
 		/* align-content: center; */
-	 } 
+	}
 
 	.sub {
 		display: block;

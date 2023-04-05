@@ -9,6 +9,7 @@
     width: 100%;
     height: auto;
     vertical-align: middle;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     /* grid-area: ft; */
 }
 
@@ -19,4 +20,4 @@
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-  }
+}
